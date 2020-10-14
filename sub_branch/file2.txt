@@ -1,0 +1,23 @@
+Pot
+
+material = (string)
+width, height = (integers)
+manufacturer = (string)
+previous_owners = (array)
+
+volume_of_pot = takes width and height to calculate the volume of Pot
+oven_safe = checks material of pot and recommends if you should put in oven
+show_info = prints out manufacturer and material
+pot_temp = would take into account the material of pot and how long it has been on heat source
+
+DutchOven
+
+material = "ceramic"
+width, height = (300, 500)
+manufacturer = "le creuset"
+previous_owners = ["grandma", "mom"]
+
+volume_of_pot = 1500
+oven_safe = true
+show_info = "ceramic le qruest owned by grandma and mom"
+pot_temp = 225

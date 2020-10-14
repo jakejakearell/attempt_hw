@@ -1,0 +1,27 @@
+Class Soup
+
+hot = (boolean)
+ingredient = (array)
+soup_origin = (string)
+weight_oz = (float)
+
+methods for Soup
+
+cook = (will  change hot attribute to true otherwise the user will get a message: 'soup already hot')
+show_info (will print the place_prepared ingredients and the size)
+is_vegetarian? = ( would loop through the ingredients looking for meats)
+is_gazpacho?  = (would loop through ingredients looking for meat and check if the hot attribute is set to false)
+
+instance of Soup
+
+TomatoeSoup
+
+hot = true
+ingredient = ["salt", "tomatoes", "onions"]
+soup_origin = "Panera Bread"
+weight_oz = 3.50
+
+cook = 'soup already hot'
+show_info= "3.50 oz Panera Bread soup made with salt, tomatoes and onions"
+is_vegetarian? = true
+is_gazpacho?  = false
